@@ -27,20 +27,20 @@ function Form(props) {
                 <div data-testid = "form" className = "mb-3">
                     <label htmlFor = "title" className = "form-label">Title</label>
                     <input 
-                    type = "text" 
-                    className = "form-control" 
-                    id = "title" 
-                    placeholder = "Please enter the title"
-                    value = {title}
-                    onChange = {e => setTitle(e.target.value)}
+                        type = "text" 
+                        className = "form-control" 
+                        id = "title" 
+                        placeholder = "Please enter the title"
+                        value = {title}
+                        onChange = {e => setTitle(e.target.value)}
                     />
                     <label htmlFor = "body" className = "form-label pt-3">Description </label>
                     <textarea 
-                    className = "form-control" 
-                    id = "body" 
-                    rows = "5"
-                    value = {body}
-                    onChange = {e => setBody(e.target.value)}
+                        className = "form-control" 
+                        id = "body" 
+                        rows = "5"
+                        value = {body}
+                        onChange = {e => setBody(e.target.value)}
                     ></textarea>
                     <br/>
                     {

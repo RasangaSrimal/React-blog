@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot for add article form 1`] = `
+<div>
+  <div
+    className="mb-3"
+    data-testid="form"
+  >
+    <label
+      className="form-label"
+      htmlFor="title"
+    >
+      Title
+    </label>
+    <input
+      className="form-control"
+      id="title"
+      onChange={[Function]}
+      placeholder="Please enter the title"
+      type="text"
+      value="new title"
+    />
+    <label
+      className="form-label pt-3"
+      htmlFor="body"
+    >
+      Description 
+    </label>
+    <textarea
+      className="form-control"
+      id="body"
+      onChange={[Function]}
+      rows="5"
+      value="new article"
+    />
+    <br />
+    <button
+      className="btn btn-success"
+      onClick={[Function]}
+    >
+      Add Article
+    </button>
+  </div>
+</div>
+`;
+
+exports[`matches snapshot for update article form 1`] = `
+<div>
+  <div
+    className="mb-3"
+    data-testid="form"
+  >
+    <label
+      className="form-label"
+      htmlFor="title"
+    >
+      Title
+    </label>
+    <input
+      className="form-control"
+      id="title"
+      onChange={[Function]}
+      placeholder="Please enter the title"
+      type="text"
+      value=""
+    />
+    <label
+      className="form-label pt-3"
+      htmlFor="body"
+    >
+      Description 
+    </label>
+    <textarea
+      className="form-control"
+      id="body"
+      onChange={[Function]}
+      rows="5"
+      value=""
+    />
+    <br />
+    <button
+      className="btn btn-success"
+      onClick={[Function]}
+    >
+      Update Article
+    </button>
+  </div>
+</div>
+`;
