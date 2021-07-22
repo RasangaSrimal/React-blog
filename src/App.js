@@ -66,7 +66,6 @@ function App() {
           addedInformation = {addedInformation}
         /> : null}
         <ArticleList articles = {articles} editBtn = {editBtn} deleteBtn = {deleteBtn}/>
-        
       </div> 
     </div>
   );

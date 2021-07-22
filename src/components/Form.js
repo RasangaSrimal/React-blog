@@ -44,8 +44,15 @@ function Form(props) {
                     ></textarea>
                     <br/>
                     {
-                        props.article.id ? <button onClick = {updateArticle} className = "btn btn-success">Update Article</button>
-                        : <button onClick = {addArticle} className = "btn btn-success">Add Article</button>
+                        props.article.id ? 
+                            <button 
+                                onClick = {updateArticle} 
+                                className = "btn btn-success"
+                            >Update Article</button>
+                        : <button 
+                            onClick = {addArticle} 
+                            className = "btn btn-success"
+                          >Add Article</button>
                     }
                 </div>
             ) : null}

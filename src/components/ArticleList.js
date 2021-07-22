@@ -20,7 +20,6 @@ function ArticleList(props) {
                 <div key = {article.id}>
                     <h2>{article.title}</h2>
                     <p>{article.body}</p>
-
                     <div className = "row">
                         <div className = "col-md-1">
                             <button 
@@ -37,9 +36,8 @@ function ArticleList(props) {
                     </div>
                     <hr/>
                 </div>
-          )
+            )
         })}
-        <p>qui est esse</p>
         </div>
     )
 }
